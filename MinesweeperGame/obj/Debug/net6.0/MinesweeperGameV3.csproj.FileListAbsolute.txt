@@ -1,0 +1,15 @@
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.csproj.AssemblyReference.cache
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.AssemblyInfoInputs.cache
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.AssemblyInfo.cs
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.csproj.CoreCompileInputs.cache
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\bin\Debug\net6.0\MinesweeperGameV3.exe
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\bin\Debug\net6.0\MinesweeperGameV3.deps.json
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\bin\Debug\net6.0\MinesweeperGameV3.runtimeconfig.json
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\bin\Debug\net6.0\MinesweeperGameV3.dll
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\bin\Debug\net6.0\MinesweeperGameV3.pdb
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.dll
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\refint\MinesweeperGameV3.dll
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.pdb
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\MinesweeperGameV3.genruntimeconfig.cache
+F:\Git\MinesweeperGameV3\MinesweeperGameV3\obj\Debug\net6.0\ref\MinesweeperGameV3.dll
