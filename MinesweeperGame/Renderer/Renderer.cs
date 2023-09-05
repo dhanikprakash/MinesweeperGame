@@ -13,7 +13,7 @@
 
         public void RenderResult(IGame game)
         {
-            if (game.PlayerX == game.GridSize - 1)
+            if (game.PlayerX == game.GridSize - 1 || game.PlayerY == game.GridSize - 1)
             {
                 Console.WriteLine($"Congratulations! You reached the other side of the board in {game.Moves} moves.");
             }

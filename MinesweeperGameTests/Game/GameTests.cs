@@ -230,6 +230,41 @@ namespace MinesweeperGame.Tests
 
         }
 
+        [TestMethod]
+        public void Game_Test10_Process_Move_Down_Should_End_Game_When_MinesDisabled()
+        {
+
+            using (StringWriter sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                int expectedY = 7;
+                int expectedX = 0;
+
+                // Act
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                game.ProcessMove(ConsoleKey.DownArrow);
+                renderer.RenderStatus(game);
+                string expectedMoves = $"Moves Taken: 7\r\n";
+                string expectedPosition = $"Current Position: A1\r\n";
+                string expectedOutput = $"P - - - - - - -";
+
+                // Assert
+
+                Assert.AreEqual(expectedX, game.PlayerX);
+                Assert.AreEqual(expectedY, game.PlayerY);
+                Assert.IsTrue(sw.ToString().Contains(expectedPosition));
+                Assert.IsTrue(sw.ToString().Contains(expectedMoves));
+                Assert.IsTrue(sw.ToString().Contains(expectedOutput));
+
+                Assert.IsTrue(game.IsGameOver());
+            }
+
+        }
 
         private bool[,] GetNoMinesData(int rows, int cols)
         {

@@ -70,7 +70,7 @@
 
         public bool IsGameOver()
         {
-            return gameOver || playerX == gridSize - 1;
+            return gameOver || playerX == gridSize - 1 || playerY == gridSize - 1;
         }
 
     }
